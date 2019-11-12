@@ -1,0 +1,52 @@
+body {
+  margin: auto;
+  background-image: url("img/background_edit.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 60px solid #CE0A12;
+  padding: 0;
+  height: 600px;
+  width: 600px;
+  background-color: #737373;
+  margin: 0 auto;
+}
+
+.grid-style {
+  flex: 0 0 5%;
+  transition-delay: 9999s;
+}
+
+.grid-style:hover {
+  background-color: #aaaaaa;  
+  transition-delay: 0s;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 50px;
+}
+
+button {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+  background-color: #CE0A12;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(206, 10, 17, 0.733);
+}
+
